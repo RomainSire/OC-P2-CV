@@ -7,13 +7,14 @@
     <!-- FontAwesome icons -->
     <script src="https://kit.fontawesome.com/98e6d384c0.js" crossorigin="anonymous"></script>
     <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- TITLE -->
     <title>Romain Siré - Développeur web</title>
   </head>
   <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper">  <!-- gère le flex pour le main et l'aside -->
       <!-- ---------------------- -->
       <!--          MAIN          -->
       <!-- ---------------------- -->
@@ -21,8 +22,9 @@
 
         <!-- HEADER -->
         <header>
-          <h1>Romain Siré</h1>
+          <h1><strong>Romain</strong> Siré</h1>
           <h2>Développeur web</h2>
+          <hr>
         </header>
 
         <!-- SECTION : FORMATION -->
@@ -117,16 +119,16 @@
             <!-- Recommandation -->
             <div class="card">
               <p class="name">John Doe</p>
-              <p class="title">Directeur service R&D, Agence</p>
-              <p class="tel">01 02 03 04 05</p>
-              <p class="mail"><a href="mailto:#">john.doe@agence.com</a></p>
+              <p class="title">Directeur, Mon agence</p>
+              <p class="tel">Téléphone : 01 02 03 04 05</p>
+              <p class="mail">Email : <a href="mailto:#">name@email.com</a></p>
             </div>
             <!-- Recommandation -->
             <div class="card">
               <p class="name">John Doe</p>
-              <p class="title">Directeur service R&D, Agence</p>
-              <p class="tel">01 02 03 04 05</p>
-              <p class="mail"><a href="mailto:#">john.doe@agence.com</a></p>
+              <p class="title">Directeur, Mon agence</p>
+              <p class="tel">Téléphone : 01 02 03 04 05</p>
+              <p class="mail">Email : <a href="mailto:#">name@email.com</a></p>
             </div>
           </div>
         </section>
@@ -138,7 +140,7 @@
       <!-- ---------------------- -->
       <aside>
         <!-- PHOTO DE PROFIL -->
-        <div id="picture">
+        <div class="picture">
           <img src="img/profile.jpg" alt="Photo de profil">
         </div>
 
@@ -176,7 +178,7 @@
         <!-- SECTION : HOBBIES -->
         <section id="hobbies">
           <h3>Loisirs</h3>
-          <div>
+          <div class="wrapper">
             <p>
               <i class="fas fa-plane"></i>
             </p>

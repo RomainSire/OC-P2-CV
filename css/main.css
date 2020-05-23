@@ -1,3 +1,188 @@
+/* -------------------------------------*/
+/*           GENERAL & TITRES           */
+/* -------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #fff;
+  /* font-size: 10px; /* 10px sur la maquette mais c'est très petit,.. */
+  line-height: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+  font-weight: 400;
+}
+main {
+  padding: 75px 60px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 0;
+}
+strong {
+  font-weight: 400;
+  color: #feca07;
+}
 h1 {
-  color: lightblue;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 4em;
+  margin: 25px 0;
+  line-height: 1em;
+}
+h2 {
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;;
+}
+h3 {
+  padding: 15px 0;
+  /* margin: 50px 0; */
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  vertical-align: middle;
+}
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+h5 {
+  margin: 8px 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+/* -------------------------------------*/
+/*                HEADER                */
+/* -------------------------------------*/
+header {
+  margin-bottom: 115px;
+}
+hr {
+  margin-top: 0.5em;
+  margin-left: 0;
+  width: 5em;
+  border: none;
+  border-top: 2px solid #feca07;
+}
+
+/* -------------------------------------*/
+/*             MAIN SECTIONS            */
+/* -------------------------------------*/
+/* TITRES */
+main h3 {
+  color: #020202;
+  border-bottom: 2px solid #feca07;
+}
+main .fas,
+main .far {
+  color: #feca07;
+  font-size: 1.3em;
+}
+main h3 .fas,
+main h3 .far {
+  margin-right: 35px;
+}
+/* CONTENUS */
+main article {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 50px 0;
+}
+main article .fas,
+main article .far {
+  margin-right: 20px;
+}
+main .fa-dot-circle {
+  font-size: 16px;
+}
+main .fa-circle {
+  font-size: 10px;
+}
+main article div:nth-child(2) {
+  min-width: 25%;
+  font-weight: 600;
+}
+/* CARTES DE RECOMMANDATIONS */
+#recommandations .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+#recommandations .card {
+  width: 50%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+#recommandations .name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+#recommandations .title,
+#recommandations .tel {
+  font-weight: 500;
+}
+
+/* -------------------------------------*/
+/*            ASIDE SECTIONS            */
+/* -------------------------------------*/
+aside {
+  background: #feca07;
+}
+aside .picture {
+  padding-top: 66px;
+  text-align: center;
+}
+aside img {
+  width: 220px;
+  border-radius: 50%;
+  border: 3px solid #40404020;
+}
+aside h3 {
+  color: #feca07;
+  background: #404040;
+  text-align: center;
+}
+aside p {
+  max-width: 80%;
+  margin: auto;
+}
+#contact {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+#contact p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+#about {
+  text-align: justify;
+}
+#hobbies .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+#hobbies p {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
 }
