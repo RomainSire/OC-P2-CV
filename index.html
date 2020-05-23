@@ -1,13 +1,196 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
   <head>
+    <!-- META -->
     <meta charset="utf-8">
-    <title>Mon CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome icons -->
+    <script src="https://kit.fontawesome.com/98e6d384c0.js" crossorigin="anonymous"></script>
     <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- TITLE -->
+    <title>Romain Siré - Développeur web</title>
   </head>
   <body>
-    <h1>Salut !</h1>
-    <p>Est ce que ça fonctionne ?</p>
+    <div class="main-wrapper">
+      <!-- ---------------------- -->
+      <!--          MAIN          -->
+      <!-- ---------------------- -->
+      <main>
+
+        <!-- HEADER -->
+        <header>
+          <h1>Romain Siré</h1>
+          <h2>Développeur web</h2>
+        </header>
+
+        <!-- SECTION : FORMATION -->
+        <section id="formation">
+          <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+          <!-- Formation -->
+          <article>
+            <div>
+              <i class="far fa-dot-circle"></i>
+            </div>
+            <div>
+              <p>2020</p>
+              <p>Montpellier</p>
+            </div>
+            <div>
+              <h4>OpenClassrooms</h4>
+              <h5>Développeur web</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa aut vitae voluptatum. Laboriosam cupiditate ullam veniam ad itaque aliquam omnis consequatur vitae hic dolorem necessitatibus excepturi, enim perspiciatis magnam!</p>
+            </div>
+          </article>
+          <!-- Formation -->
+          <article>
+            <div>
+              <i class="fas fa-circle"></i>
+            </div>
+            <div>
+              <p>2019</p>
+              <p>Aix-en-Provence</p>
+            </div>
+            <div>
+              <h4>3W Academy</h4>
+              <h5>Intégrateur - développeur web</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa aut vitae voluptatum. Laboriosam cupiditate ullam veniam ad itaque aliquam omnis consequatur vitae hic dolorem necessitatibus excepturi, enim perspiciatis magnam!</p>
+            </div>
+          </article>
+        </section>
+
+        <!-- SECTION : EXPÉRIENCE -->
+        <section id="experience">
+          <h3><i class="fas fa-briefcase"></i> Expérience</h3>
+          <!-- Expérience -->
+          <article>
+            <div>
+              <i class="far fa-dot-circle"></i>
+            </div>
+            <div>
+              <p>2016 - 2020</p>
+              <p>Montpellier</p>
+            </div>
+            <div>
+              <h4>Gensun</h4>
+              <h5>Chargé d'affaires O&M</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa aut vitae voluptatum. Laboriosam cupiditate ullam veniam ad itaque aliquam omnis consequatur vitae hic dolorem necessitatibus excepturi, enim perspiciatis magnam!</p>
+            </div>
+          </article>
+          <!-- Expérience -->
+          <article>
+            <div>
+              <i class="fas fa-circle"></i>
+            </div>
+            <div>
+              <p>2009 - 2013</p>
+              <p>Perpignan</p>
+            </div>
+            <div>
+              <h4>TECSOL</h4>
+              <h5>Ingénieur d'études</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa aut vitae voluptatum. Laboriosam cupiditate ullam veniam ad itaque aliquam omnis consequatur vitae hic dolorem necessitatibus excepturi, enim perspiciatis magnam!</p>
+            </div>
+          </article>
+          <!-- Expérience -->
+          <article>
+            <div>
+              <i class="fas fa-circle"></i>
+            </div>
+            <div>
+              <p>2009 - 2013</p>
+              <p>Perpignan</p>
+            </div>
+            <div>
+              <h4>TECSOL</h4>
+              <h5>Ingénieur d'études</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa aut vitae voluptatum. Laboriosam cupiditate ullam veniam ad itaque aliquam omnis consequatur vitae hic dolorem necessitatibus excepturi, enim perspiciatis magnam!</p>
+            </div>
+          </article>
+        </section>
+
+        <!-- SECTION : RECOMMANDATIONS -->
+        <section id="recommandations">
+          <h3><i class="fas fa-pencil-alt"></i> Recommandations</h3>
+          <div class="wrapper">
+            <!-- Recommandation -->
+            <div class="card">
+              <p class="name">John Doe</p>
+              <p class="title">Directeur service R&D, Agence</p>
+              <p class="tel">01 02 03 04 05</p>
+              <p class="mail"><a href="mailto:#">john.doe@agence.com</a></p>
+            </div>
+            <!-- Recommandation -->
+            <div class="card">
+              <p class="name">John Doe</p>
+              <p class="title">Directeur service R&D, Agence</p>
+              <p class="tel">01 02 03 04 05</p>
+              <p class="mail"><a href="mailto:#">john.doe@agence.com</a></p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- ---------------------- -->
+      <!--         ASIDE          -->
+      <!-- ---------------------- -->
+      <aside>
+        <!-- PHOTO DE PROFIL -->
+        <div id="picture">
+          <img src="img/profile.jpg" alt="Photo de profil">
+        </div>
+
+        <!-- SECTION : CONTACT -->
+        <section id="contact">
+          <h3>Contact</h3>
+          <p>
+            Adresse<br>
+            Montpellier, France
+          </p>
+          <p>
+            Téléphone<br>
+            06 79 88 79 56
+          </p>
+          <p>
+            Email<br>
+            <a href="mailto:romain.sire@gmx.com">romain.sire@gmx.com</a>
+          </p>
+          <p>
+            Site web<br>
+            <a href="http://romainsire.com/">romainsire.com</a>
+          </p>
+          <p>
+            Skype<br>
+            @romain.sire
+          </p>
+        </section>
+
+        <!-- SECTION : ABOUT -->
+        <section id="about">
+          <h3>À propos de moi</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi illo vero minima minus molestias accusamus neque tempora expedita dolorem impedit deleniti assumenda nihil ducimus, beatae earum aliquid perferendis libero eos!Qui et magnam rem assumenda quasi commodi possimus repudiandae harum! Vitae possimus repudiandae ad magni aspernatur perspiciatis delectus officiis at ullam minus officia, deserunt, cupiditate mollitia soluta eaque! Quibusdam, consequatur.</p>
+        </section>
+
+        <!-- SECTION : HOBBIES -->
+        <section id="hobbies">
+          <h3>Loisirs</h3>
+          <div>
+            <p>
+              <i class="fas fa-plane"></i>
+            </p>
+            <p>
+              <i class="fas fa-hiking"></i>
+            </p>
+            <p>
+              <i class="fas fa-tools"></i>
+            </p>
+          </div>
+        </section>
+
+      </aside>
+    </div>
+    
   </body>
 </html>
