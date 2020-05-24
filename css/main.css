@@ -7,7 +7,8 @@
 body {
   margin: 0;
   background: #fff;
-  /* font-size: 10px; /* 10px sur la maquette mais c'est très petit,.. */
+  /* font-size: 10px; */
+  /* 10px sur la maquette mais très petit,.. La taille par défaut du navigateur de l'utilisateur sera utilisée */
   line-height: 1.6em;
   font-family: 'Roboto', sans-serif;
   color: #4a4a4a;
@@ -44,7 +45,6 @@ h2 {
 }
 h3 {
   padding: 15px 0;
-  /* margin: 50px 0; */
   font-size: 1.8em;
   text-transform: uppercase;
   font-weight: 500;
@@ -110,7 +110,7 @@ main .fa-circle {
   font-size: 10px;
 }
 main article div:nth-child(2) {
-  min-width: 25%;
+  min-width: 28%;
   font-weight: 600;
 }
 /* CARTES DE RECOMMANDATIONS */
@@ -138,6 +138,7 @@ main article div:nth-child(2) {
 /* -------------------------------------*/
 aside {
   background: #feca07;
+  box-shadow: 0 0 10px #aaa; /* N'est pas dans le template.. */
 }
 aside .picture {
   padding-top: 66px;
@@ -185,4 +186,28 @@ aside p {
   justify-content: center;
   align-items: center;
   font-size: 2.5em;
+}
+
+/* -------------------------------------*/
+/*          RESPONSIVE DESIGN           */
+/* -------------------------------------*/
+/* DESKTOP : TAILLE D'ÉCRAN > 992 PX */
+@media screen and (min-width: 992px)
+{
+  .main-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  main {
+    flex: 2;
+  }
+  aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #about {
+    flex: 2;
+  }
 }
