@@ -15,7 +15,7 @@ body {
   font-weight: 400;
 }
 main {
-  padding: 75px 60px;
+  padding: 20px 20px;
 }
 a {
   text-decoration: none;
@@ -66,7 +66,7 @@ h5 {
 /*                HEADER                */
 /* -------------------------------------*/
 header {
-  margin-bottom: 115px;
+  margin-bottom: 100px;
 }
 hr {
   margin-top: 0.5em;
@@ -153,6 +153,7 @@ aside h3 {
   color: #feca07;
   background: #404040;
   text-align: center;
+  font-size: 1.6em;
 }
 aside p {
   max-width: 80%;
@@ -163,8 +164,8 @@ aside p {
   font-weight: 500;
 }
 #contact p {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 #about {
   text-align: justify;
@@ -200,6 +201,7 @@ aside p {
   }
   main {
     flex: 2;
+    padding: 75px 60px;
   }
   aside {
     flex: 1;
